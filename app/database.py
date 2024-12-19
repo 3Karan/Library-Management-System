@@ -13,7 +13,6 @@ def init_db():
     conn = sqlite3.connect(DATABASE)
     cursor = conn.cursor()
     
-    # Define your schema (tables for books and members)
     cursor.execute('''
     CREATE TABLE IF NOT EXISTS books (
         id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -38,7 +37,6 @@ def init_db():
 
     print("Database initialized successfully.")
 
-# Call init_db() to initialize the database
 if __name__ == '__main__':
     init_db()
 
