@@ -4,10 +4,7 @@ from .auth import token_required, generate_jwt_token  # Assuming token_required 
 
 book_bp = Blueprint('books', __name__)
 
-# CRUD Operations for Books
-
-
-# Create a login route to generate the JWT token
+# login route to generate the JWT token
 @book_bp.route('/login', methods=['POST'])
 def login():
     data = request.get_json()
