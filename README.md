@@ -128,6 +128,13 @@ This is a RESTful API for a Library Management System built using Flask. The sys
 - The SQLite database is lightweight, and this system is not optimized for large-scale applications.
 
 ## License
-MIT License. See the [LICENSE](LICENSE) file for details.
-```
+MIT License
+
+Copyright (c) 2024 Karan Chaudhary
+
+Permission is hereby granted, free of charge, to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND.
 
