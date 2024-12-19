@@ -131,9 +131,3 @@ This is a RESTful API for a Library Management System built using Flask. The sys
 MIT License. See the [LICENSE](LICENSE) file for details.
 ```
 
-### Explanation:
-1. **How to run the project**: This section outlines how to clone the repository, install dependencies, initialize the database, and run the application.
-2. **Design choices**: The document explains the tools used (Flask, SQLite, JWT) and why certain architectural decisions were made (e.g., using Blueprints, pagination, and search).
-3. **Assumptions and limitations**: Discusses assumptions like the use of a static token and minimal validation. It also highlights the limitations, such as the lack of user authentication and scalability considerations.
-
-You can customize the sections according to your needs.
