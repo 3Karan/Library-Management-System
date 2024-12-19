@@ -43,7 +43,6 @@ def token_required_jwt(f):
 
 
 
-# Function to generate JWT token (you can use this in your login view)
 def generate_jwt_token(user_id):
     expiration_time = datetime.utcnow() + timedelta(minutes=5)  # Set a shorter expiration for testing
     payload = {
