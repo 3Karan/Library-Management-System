@@ -28,4 +28,3 @@ def delete_book(book_id: int):
     db.execute('DELETE FROM books WHERE id = ?', (book_id,))
     db.commit()
 
-# Similar functions for members can be added here as needed.
