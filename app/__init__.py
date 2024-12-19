@@ -10,8 +10,6 @@ def create_app():
     from .routes import book_bp  # Remove the import for member_bp
     app.register_blueprint(book_bp, url_prefix='/books')
     
-    # Comment or remove this line if you don't have member routes yet
-    # from .routes import member_bp  
-    # app.register_blueprint(member_bp, url_prefix='/members')
+
     
     return app
